@@ -14,7 +14,7 @@ def one_authentication(bank_card_no):
     conn_mysql.select_db('mobilemoney')
     cur_paycenter=conn_paycenter.cursor()
     cur_mysql=conn_mysql.cursor()
-    returnresult=''        
+    #returnresult=''        
     sql1 = r"select * from auth_records t where t.BANK_CARDNO='"+bank_card_no+"'"
     sql2 = r"update auth_records ti set IS_DEL='0'  where ti.BANK_CARDNO='"+bank_card_no+"'"
     sql3 = r"delete from t_user_bank where BANK_CARD_NO='"+bank_card_no+"'"
@@ -34,3 +34,4 @@ def one_authentication(bank_card_no):
         
 if  __name__ == '__main__':
     one_authentication('6214830118056125')
+    #one_authentication('6214830118056125')

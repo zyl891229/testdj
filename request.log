@@ -1,0 +1,80 @@
+2015-08-05 09:47:06,450 [Thread-2:21264] [django.request:256] [ERROR]- Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 18, in hello
+    t=get_template(main.html)
+AttributeError: 'function' object has no attribute 'html'
+2015-08-05 09:47:23,023 [Thread-2:1776] [django.request:256] [ERROR]- Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 20, in hello
+    return HttpResponse("不要着急，该功能正在开发ing<br>：-)<br>"+t)
+TypeError: cannot concatenate 'str' and 'Template' objects
+2015-08-05 09:47:41,628 [Thread-3:18368] [django.request:256] [ERROR]- Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 20, in hello
+    return HttpResponse("不要着急，该功能正在开发ing<br>：-)<br>"+t)
+TypeError: cannot concatenate 'str' and 'Template' objects
+2015-08-05 09:48:04,483 [Thread-2:14552] [django.request:256] [ERROR]- Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 19, in hello
+    return HttpResponse("不要着急，该功能正在开发ing<br>：-)<br>"+t)
+TypeError: cannot concatenate 'str' and 'Template' objects
+2015-08-13 13:00:22,398 [Thread-9:10400] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2015-08-13 13:00:22,415 [Thread-10:11152] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2015-08-18 17:21:10,601 [Thread-4:9856] [django.request:256] [ERROR]- Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 164, in get_response
+    response = response.render()
+  File "D:\Program Files\Python27\lib\site-packages\django\template\response.py", line 158, in render
+    self.content = self.rendered_content
+  File "D:\Program Files\Python27\lib\site-packages\django\template\response.py", line 133, in rendered_content
+    template = self._resolve_template(self.template_name)
+  File "D:\Program Files\Python27\lib\site-packages\django\template\response.py", line 88, in _resolve_template
+    new_template = self.resolve_template(template)
+  File "D:\Program Files\Python27\lib\site-packages\django\template\response.py", line 80, in resolve_template
+    return loader.get_template(template, using=self.using)
+  File "D:\Program Files\Python27\lib\site-packages\django\template\loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: admin/login.html
+2015-08-18 17:21:11,369 [Thread-5:7372] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2015-08-18 17:21:11,388 [Thread-6:1804] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2015-08-19 16:18:17,665 [Thread-3:14932] [django.request:256] [ERROR]- Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 164, in get_response
+    response = response.render()
+  File "D:\Program Files\Python27\lib\site-packages\django\template\response.py", line 158, in render
+    self.content = self.rendered_content
+  File "D:\Program Files\Python27\lib\site-packages\django\template\response.py", line 133, in rendered_content
+    template = self._resolve_template(self.template_name)
+  File "D:\Program Files\Python27\lib\site-packages\django\template\response.py", line 88, in _resolve_template
+    new_template = self.resolve_template(template)
+  File "D:\Program Files\Python27\lib\site-packages\django\template\response.py", line 80, in resolve_template
+    return loader.get_template(template, using=self.using)
+  File "D:\Program Files\Python27\lib\site-packages\django\template\loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: admin/login.html
+2015-08-19 16:18:17,838 [Thread-4:4700] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2015-08-19 16:18:17,934 [Thread-5:8664] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2015-08-19 16:21:57,539 [Thread-8:7396] [django.request:256] [ERROR]- Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 164, in get_response
+    response = response.render()
+  File "D:\Program Files\Python27\lib\site-packages\django\template\response.py", line 158, in render
+    self.content = self.rendered_content
+  File "D:\Program Files\Python27\lib\site-packages\django\template\response.py", line 133, in rendered_content
+    template = self._resolve_template(self.template_name)
+  File "D:\Program Files\Python27\lib\site-packages\django\template\response.py", line 88, in _resolve_template
+    new_template = self.resolve_template(template)
+  File "D:\Program Files\Python27\lib\site-packages\django\template\response.py", line 80, in resolve_template
+    return loader.get_template(template, using=self.using)
+  File "D:\Program Files\Python27\lib\site-packages\django\template\loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: admin/login.html
+2015-08-19 16:23:33,295 [Thread-19:15180] [django.request:170] [WARNING]- Not Found: /

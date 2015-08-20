@@ -9,8 +9,11 @@ import sys
 
 
 def getPhoneNumFrom(fobj):
-    regex = re.compile(r'1\d{10}', re.IGNORECASE)
-    phonenums = re.findall(regex, fobj)
+    try:
+        regex = re.compile(r'1\d{10}', re.IGNORECASE)
+        phonenums = re.findall(regex, fobj.replace(' ',''))
+    except Exception,ex: 
+        phonenums = ex 
     return phonenums
   
 chmap = {  
@@ -22,7 +25,7 @@ def ch_to_num(ch):
     return chmap[ch]      
   
 def verify_string(s):  
-    char_list = list(s)  
+    char_list = list(s.replace(' ',''))  
     num_list = [ch_to_num(ch) for ch in char_list]  
     return verify_list(num_list)  
   
@@ -36,7 +39,7 @@ def verify_list(l):
       
 
 if __name__ == '__main__':
-    print getPhoneNumFrom('11800138000')[0]
+    print getPhoneNumFrom('1800138 000 ')
     print '------------------------------------------------------------------------------------'
-    result = verify_string('110101122294018')  
+    result = verify_string('11   0101198912294018    ')  
     print result

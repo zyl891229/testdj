@@ -649,3 +649,11 @@
 2015-08-20 16:32:46,032 [Thread-4:4180] [py.logout:29] [INFO]- 数据库连接完毕
 2015-08-20 16:32:46,032 [Thread-4:4180] [py.logout:32] [INFO]- 查找账户是否存在
 2015-08-20 16:32:49,849 [Thread-4:4180] [py.logout:40] [INFO]- 没有该条数据
+2015-08-20 17:10:50,740 [Dummy-1:16168] [django.db.backends:89] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2015-08-20 17:10:50,742 [Dummy-1:16168] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2015-08-20 17:10:59,598 [Dummy-1:10760] [django.db.backends:89] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2015-08-20 17:10:59,599 [Dummy-1:10760] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2015-08-20 17:11:08,372 [Dummy-1:9308] [django.db.backends:89] [DEBUG]- (0.000) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2015-08-20 17:11:08,375 [Dummy-1:9308] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2015-08-20 17:11:13,089 [Dummy-1:14780] [django.db.backends:89] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2015-08-20 17:11:13,092 [Dummy-1:14780] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()

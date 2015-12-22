@@ -78,3 +78,67 @@ Traceback (most recent call last):
     raise TemplateDoesNotExist(template_name)
 TemplateDoesNotExist: admin/login.html
 2015-08-19 16:23:33,295 [Thread-19:15180] [django.request:170] [WARNING]- Not Found: /
+2015-08-28 11:06:45,740 [Thread-20:14176] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2015-08-28 11:06:45,924 [Thread-21:17448] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2015-09-01 13:45:01,609 [Thread-6:12888] [django.request:256] [ERROR]- Internal Server Error: /main/log_out.html
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 81, in log_out
+    print errors
+IOError: [Errno 22] Invalid argument
+2015-09-01 13:45:02,052 [Thread-7:11636] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2015-09-01 13:45:05,802 [Thread-8:864] [django.request:256] [ERROR]- Internal Server Error: /main/log_out.html
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 81, in log_out
+    print errors
+IOError: [Errno 22] Invalid argument
+2015-09-01 13:45:17,525 [Thread-17:12200] [django.request:256] [ERROR]- Internal Server Error: /main/log_out.html
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 81, in log_out
+    print errors
+IOError: [Errno 22] Invalid argument
+2015-09-01 13:45:17,861 [Thread-18:7108] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2015-09-01 13:45:17,868 [Thread-19:13520] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2015-09-01 13:45:28,066 [Thread-20:11712] [django.request:256] [ERROR]- Internal Server Error: /main/log_out.html
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 81, in log_out
+    print errors
+IOError: [Errno 22] Invalid argument
+2015-09-01 13:46:30,275 [Thread-23:12176] [django.request:256] [ERROR]- Internal Server Error: /main/log_out.html
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 81, in log_out
+    print errors
+IOError: [Errno 22] Invalid argument
+2015-09-01 13:46:36,556 [Thread-24:5748] [django.request:256] [ERROR]- Internal Server Error: /main/log_out.html
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 81, in log_out
+    print errors
+IOError: [Errno 22] Invalid argument
+2015-09-01 13:46:50,440 [Thread-27:14416] [django.request:256] [ERROR]- Internal Server Error: /main/log_out.html
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 81, in log_out
+    print errors
+IOError: [Errno 22] Invalid argument
+2015-09-01 13:51:33,138 [Thread-32:12400] [django.request:256] [ERROR]- Internal Server Error: /main/one_authentication.html
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 19, in hello
+    print t
+IOError: [Errno 22] Invalid argument
+2015-10-29 14:22:12,582 [Thread-10:7052] [django.request:170] [WARNING]- Not Found: /search
+2015-10-29 14:22:13,194 [Thread-11:7384] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2015-10-29 14:22:13,207 [Thread-12:6884] [django.request:170] [WARNING]- Not Found: /favicon.ico

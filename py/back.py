@@ -1,8 +1,18 @@
 # -*- coding: utf8 -*-
+
+#恢复旧账户
 import MySQLdb
 import cx_Oracle
 
-cellphone_no = '18566686118'
+
+#只需要改手机号，按F5执行，提示保存按OK就行，都是蓝字就是成功，有红字就说明没有该账户
+cellphone_no = '15600212263'
+
+
+
+
+
+
 print cellphone_no
 conn_orcl = cx_Oracle.connect('p2p_test_45', '#hu*zAO0lz', '10.106.58.42:1521/test') #yrd
 conn_mysql=MySQLdb.connect(host="10.106.4.102",user="mobilemoney",passwd="devel@D3rjJpB6",db="mobilemoney",port=3306,charset="utf8")   #mysql

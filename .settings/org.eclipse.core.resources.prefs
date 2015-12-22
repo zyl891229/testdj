@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//py/back.py=utf8
 encoding//py/download.py=utf-8
 encoding//py/download_bing.py=utf-8
 encoding//py/json_format.py=utf8

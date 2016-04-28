@@ -142,3 +142,139 @@ IOError: [Errno 22] Invalid argument
 2015-10-29 14:22:12,582 [Thread-10:7052] [django.request:170] [WARNING]- Not Found: /search
 2015-10-29 14:22:13,194 [Thread-11:7384] [django.request:170] [WARNING]- Not Found: /favicon.ico
 2015-10-29 14:22:13,207 [Thread-12:6884] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2015-12-29 10:48:43,818 [Thread-2:15156] [django.request:170] [WARNING]- Not Found: /
+2015-12-29 10:48:44,082 [Thread-3:4916] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2015-12-29 10:48:44,086 [Thread-4:4864] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-01-06 13:41:18,650 [Thread-4:12684] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-01-06 13:41:18,667 [Thread-5:12716] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-01-27 15:47:35,943 [Thread-9:29196] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-01-27 15:47:35,996 [Thread-10:29528] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-01-28 10:56:43,398 [Thread-16:33420] [django.request:256] [ERROR]- Internal Server Error: /main/
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 25, in main
+    pic_url0,pic_url = py.download_bing.download_bing()
+  File "E:\eclipse_workspace\testdj\py\download_bing.py", line 11, in download_bing
+    djson = json.loads(urllib2.urlopen(url).read())
+  File "D:\Program Files\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 10060] >
+2016-01-28 10:56:44,032 [Thread-17:35068] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-01-28 10:56:44,036 [Thread-18:34748] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-01-28 10:57:37,345 [Thread-4:33252] [django.request:170] [WARNING]- Not Found: /
+2016-01-28 10:57:39,891 [Thread-2:27928] [django.request:256] [ERROR]- Internal Server Error: /main/
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 25, in main
+    pic_url0,pic_url = py.download_bing.download_bing()
+  File "E:\eclipse_workspace\testdj\py\download_bing.py", line 11, in download_bing
+    djson = json.loads(urllib2.urlopen(url).read())
+  File "D:\Program Files\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 10060] >
+2016-01-28 10:57:55,404 [Thread-3:31048] [django.request:256] [ERROR]- Internal Server Error: /main/
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 25, in main
+    pic_url0,pic_url = py.download_bing.download_bing()
+  File "E:\eclipse_workspace\testdj\py\download_bing.py", line 11, in download_bing
+    djson = json.loads(urllib2.urlopen(url).read())
+  File "D:\Program Files\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 10060] >
+2016-01-28 10:58:16,576 [Thread-5:33708] [django.request:256] [ERROR]- Internal Server Error: /main/
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 25, in main
+    pic_url0,pic_url = py.download_bing.download_bing()
+  File "E:\eclipse_workspace\testdj\py\download_bing.py", line 11, in download_bing
+    djson = json.loads(urllib2.urlopen(url).read())
+  File "D:\Program Files\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 10060] >
+2016-01-28 11:00:23,424 [Thread-2:25808] [django.request:256] [ERROR]- Internal Server Error: /main/
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 25, in main
+    pic_url0,pic_url = py.download_bing.download_bing()
+  File "E:\eclipse_workspace\testdj\py\download_bing.py", line 11, in download_bing
+    djson = json.loads(urllib2.urlopen(url).read())
+  File "D:\Program Files\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 10060] >
+2016-01-28 11:04:00,154 [Thread-3:35864] [django.request:256] [ERROR]- Internal Server Error: /main/
+Traceback (most recent call last):
+  File "D:\Program Files\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\eclipse_workspace\testdj\webapp\views.py", line 25, in main
+    pic_url0,pic_url = py.download_bing.download_bing()
+  File "E:\eclipse_workspace\testdj\py\download_bing.py", line 11, in download_bing
+    djson = json.loads(urllib2.urlopen(url).read())
+  File "D:\Program Files\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "D:\Program Files\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 10060] >

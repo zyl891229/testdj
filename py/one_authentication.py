@@ -10,7 +10,7 @@ import cx_Oracle
 def one_authentication(bank_card_no):
     print bank_card_no
     conn_paycenter = cx_Oracle.connect('paycenter_srv_test_158', '#GH%4LGVR$3BT', '10.106.58.33:1521/test') #yrd
-    conn_mysql=MySQLdb.connect(host="10.106.4.102",user="mobilemoney",passwd="devel@D3rjJpB6",db="mobilemoney",port=3306,charset="utf8")   #mysql
+    conn_mysql=MySQLdb.connect(host="10.106.58.141",user="mobilemoney",passwd="devel@D3rjJpB6",db="mobilemoney",port=3306,charset="utf8")   #mysql
     conn_mysql.select_db('mobilemoney')
     cur_paycenter=conn_paycenter.cursor()
     cur_mysql=conn_mysql.cursor()

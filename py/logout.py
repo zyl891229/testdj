@@ -18,7 +18,7 @@ def lotout(cellphone_no,id_no):
             cellphone_no=return_cellphone_no[0]
             logger.info("手机号为： "+cellphone_no+"  身份证号为： "+id_no)
             logger.info("手机号身份证号符合规则，清除开始    "+cellphone_no+'     '+id_no)
-            conn_orcl = cx_Oracle.connect('p2p_test_45', '#hu*zAO0lz', '10.106.58.42:1521/test') #yrd 45
+            conn_orcl = cx_Oracle.connect('p2p_test_154', '#hu*zAO0lz', '10.106.58.51:1521/test') #yrd 45
             conn_passport = cx_Oracle.connect('passport_test_01', 'gh#c!7jsdNY', '10.106.58.33:1521/test') #passport  
             
 #             conn_orcl = cx_Oracle.connect('p2p_test_21', 'h%z8aIACDU0', '10.106.58.42:1521/test') #yrd 45
@@ -29,7 +29,7 @@ def lotout(cellphone_no,id_no):
 #             conn_passport = cx_Oracle.connect('passport_test_djxt', '*(9jhTaIOZR', '10.106.58.33:1521/test') #passport  
 # #             conn_passport = cx_Oracle.connect('passport_test_yfb', '%(K^B*jOQz!q', '10.106.58.33:1521/test') #passport  
   
-            conn_mysql=MySQLdb.connect(host="10.106.4.102",user="mobilemoney",passwd="devel@D3rjJpB6",db="mobilemoney",port=3306,charset="utf8")   #mysql
+            conn_mysql=MySQLdb.connect(host="10.106.58.141",user="mobilemoney",passwd="devel@D3rjJpB6",db="mobilemoney",port=3306,charset="utf8")   #mysql
             conn_mysql.select_db('mobilemoney')
             
             cur_orcl=conn_orcl.cursor()

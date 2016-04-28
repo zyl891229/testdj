@@ -2522,3 +2522,394 @@
 2015-12-21 10:57:11,263 [Dummy-1:46716] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
 2015-12-22 13:45:08,752 [Dummy-1:46572] [django.db.backends:89] [DEBUG]- (0.002) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
 2015-12-22 13:45:08,864 [Dummy-1:46572] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2015-12-22 18:51:38,221 [Thread-4:63648] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2015-12-22 18:51:38,223 [Thread-4:63648] [py.logout:19] [INFO]- 手机号为： 18701185096  身份证号为： 142621198806020021
+2015-12-22 18:51:38,223 [Thread-4:63648] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18701185096     142621198806020021
+2015-12-22 18:51:40,023 [Thread-4:63648] [py.logout:39] [INFO]- 数据库连接完毕
+2015-12-22 18:51:40,023 [Thread-4:63648] [py.logout:42] [INFO]- 查找账户是否存在
+2015-12-22 18:51:53,941 [Thread-4:63648] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2015-12-22 18:51:53,990 [Thread-4:63648] [py.logout:76] [INFO]- 清除宜人贷数据库
+2015-12-22 18:51:54,315 [Thread-4:63648] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2015-12-22 18:51:56,145 [Thread-4:63648] [py.logout:83] [INFO]- 清除开户信息 
+2015-12-22 18:51:56,153 [Thread-4:63648] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2015-12-22 18:51:56,332 [Thread-4:63648] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2015-12-22 18:51:56,332 [Thread-4:63648] [py.logout:96] [INFO]- 清除成功
+2015-12-29 10:47:04,704 [Dummy-1:14404] [django.db.backends:89] [DEBUG]- (0.036) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2015-12-29 10:47:04,790 [Dummy-1:14404] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2015-12-29 10:49:32,483 [Thread-12:15728] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2015-12-29 10:49:32,484 [Thread-12:15728] [py.logout:19] [INFO]- 手机号为： 13521499301  身份证号为： 130821198603123319
+2015-12-29 10:49:32,484 [Thread-12:15728] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    13521499301     130821198603123319
+2015-12-29 10:49:33,815 [Thread-12:15728] [py.logout:39] [INFO]- 数据库连接完毕
+2015-12-29 10:49:33,815 [Thread-12:15728] [py.logout:42] [INFO]- 查找账户是否存在
+2015-12-29 10:49:35,762 [Thread-12:15728] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2015-12-29 10:49:35,815 [Thread-12:15728] [py.logout:76] [INFO]- 清除宜人贷数据库
+2015-12-29 10:49:36,187 [Thread-12:15728] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2015-12-29 10:49:36,266 [Thread-12:15728] [py.logout:83] [INFO]- 清除开户信息 
+2015-12-29 10:49:36,283 [Thread-12:15728] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2015-12-29 10:49:36,388 [Thread-12:15728] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2015-12-29 10:49:36,390 [Thread-12:15728] [py.logout:96] [INFO]- 清除成功
+2015-12-31 10:26:03,532 [Dummy-1:4000] [django.db.backends:89] [DEBUG]- (0.000) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2015-12-31 10:26:03,910 [Dummy-1:4000] [django.db.backends:89] [DEBUG]- (0.001) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2016-01-04 11:11:26,260 [Dummy-1:14776] [django.db.backends:89] [DEBUG]- (0.000) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2016-01-04 11:11:26,369 [Dummy-1:14776] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2016-01-06 13:41:00,269 [Dummy-1:12992] [django.db.backends:89] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2016-01-06 13:41:00,345 [Dummy-1:12992] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2016-01-08 10:20:21,165 [Dummy-1:11588] [django.db.backends:89] [DEBUG]- (0.002) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2016-01-08 10:20:21,236 [Dummy-1:11588] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2016-01-11 15:19:27,717 [Dummy-1:11888] [django.db.backends:89] [DEBUG]- (0.015) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2016-01-11 15:19:27,811 [Dummy-1:11888] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2016-01-12 21:59:35,505 [Dummy-1:14360] [django.db.backends:89] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2016-01-12 21:59:35,555 [Dummy-1:14360] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2016-01-14 11:44:10,940 [Thread-12:43036] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-14 11:44:10,941 [Thread-12:43036] [py.logout:19] [INFO]- 手机号为： 13717759162  身份证号为： 110108198407146318
+2016-01-14 11:44:10,943 [Thread-12:43036] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    13717759162     110108198407146318
+2016-01-14 11:44:14,012 [Thread-12:43036] [py.logout:39] [INFO]- 数据库连接完毕
+2016-01-14 11:44:14,012 [Thread-12:43036] [py.logout:42] [INFO]- 查找账户是否存在
+2016-01-14 11:44:16,115 [Thread-12:43036] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-01-14 11:44:16,187 [Thread-12:43036] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-01-14 11:44:16,594 [Thread-12:43036] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-01-14 11:44:17,477 [Thread-12:43036] [py.logout:83] [INFO]- 清除开户信息 
+2016-01-14 11:44:17,483 [Thread-12:43036] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-01-14 11:44:17,595 [Thread-12:43036] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-01-14 11:44:17,595 [Thread-12:43036] [py.logout:96] [INFO]- 清除成功
+2016-01-14 16:16:48,082 [Thread-15:46368] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-14 16:16:48,082 [Thread-15:46368] [py.logout:19] [INFO]- 手机号为： 13521499301  身份证号为： 130821198603123319
+2016-01-14 16:16:48,082 [Thread-15:46368] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    13521499301     130821198603123319
+2016-01-14 16:16:48,200 [Thread-15:46368] [py.logout:39] [INFO]- 数据库连接完毕
+2016-01-14 16:16:48,200 [Thread-15:46368] [py.logout:42] [INFO]- 查找账户是否存在
+2016-01-14 16:16:50,122 [Thread-15:46368] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-01-14 16:16:50,150 [Thread-15:46368] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-01-14 16:16:50,540 [Thread-15:46368] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-01-14 16:16:50,579 [Thread-15:46368] [py.logout:83] [INFO]- 清除开户信息 
+2016-01-14 16:16:50,586 [Thread-15:46368] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-01-14 16:16:50,592 [Thread-15:46368] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-01-14 16:16:50,592 [Thread-15:46368] [py.logout:96] [INFO]- 清除成功
+2016-01-14 17:20:35,903 [Thread-18:47588] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-14 17:20:35,904 [Thread-18:47588] [py.logout:19] [INFO]- 手机号为： 13521499301  身份证号为： 130821198603123319
+2016-01-14 17:20:35,904 [Thread-18:47588] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    13521499301     130821198603123319
+2016-01-14 17:20:36,043 [Thread-18:47588] [py.logout:39] [INFO]- 数据库连接完毕
+2016-01-14 17:20:36,045 [Thread-18:47588] [py.logout:42] [INFO]- 查找账户是否存在
+2016-01-14 17:20:38,072 [Thread-18:47588] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-01-14 17:20:38,111 [Thread-18:47588] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-01-14 17:20:38,486 [Thread-18:47588] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-01-14 17:20:38,526 [Thread-18:47588] [py.logout:83] [INFO]- 清除开户信息 
+2016-01-14 17:20:38,532 [Thread-18:47588] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-01-14 17:20:38,543 [Thread-18:47588] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-01-14 17:20:38,543 [Thread-18:47588] [py.logout:96] [INFO]- 清除成功
+2016-01-15 14:52:28,095 [Thread-23:63044] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-15 14:52:28,095 [Thread-23:63044] [py.logout:19] [INFO]- 手机号为： 13521499301  身份证号为： 130821198603123319
+2016-01-15 14:52:28,095 [Thread-23:63044] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    13521499301     130821198603123319
+2016-01-15 14:52:28,351 [Thread-23:63044] [py.logout:39] [INFO]- 数据库连接完毕
+2016-01-15 14:52:28,351 [Thread-23:63044] [py.logout:42] [INFO]- 查找账户是否存在
+2016-01-15 14:52:30,430 [Thread-23:63044] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-01-15 14:52:30,461 [Thread-23:63044] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-01-15 14:52:30,825 [Thread-23:63044] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-01-15 14:52:30,867 [Thread-23:63044] [py.logout:83] [INFO]- 清除开户信息 
+2016-01-15 14:52:30,874 [Thread-23:63044] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-01-15 14:52:30,880 [Thread-23:63044] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-01-15 14:52:30,880 [Thread-23:63044] [py.logout:96] [INFO]- 清除成功
+2016-01-15 14:52:45,737 [Thread-24:62192] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-15 14:52:45,737 [Thread-24:62192] [py.logout:19] [INFO]- 手机号为： 13521499302  身份证号为： 320503197211031046
+2016-01-15 14:52:45,737 [Thread-24:62192] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    13521499302     320503197211031046
+2016-01-15 14:52:45,849 [Thread-24:62192] [py.logout:39] [INFO]- 数据库连接完毕
+2016-01-15 14:52:45,849 [Thread-24:62192] [py.logout:42] [INFO]- 查找账户是否存在
+2016-01-15 14:52:47,890 [Thread-24:62192] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-01-15 14:52:47,907 [Thread-24:62192] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-01-15 14:52:48,279 [Thread-24:62192] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-01-15 14:52:48,325 [Thread-24:62192] [py.logout:83] [INFO]- 清除开户信息 
+2016-01-15 14:52:48,331 [Thread-24:62192] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-01-15 14:52:48,339 [Thread-24:62192] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-01-15 14:52:48,339 [Thread-24:62192] [py.logout:96] [INFO]- 清除成功
+2016-01-15 18:15:15,104 [Thread-25:65116] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-15 18:15:15,104 [Thread-25:65116] [py.logout:19] [INFO]- 手机号为： 13521499301  身份证号为： 130821198603123319
+2016-01-15 18:15:15,105 [Thread-25:65116] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    13521499301     130821198603123319
+2016-01-15 18:15:15,210 [Thread-25:65116] [py.logout:39] [INFO]- 数据库连接完毕
+2016-01-15 18:15:15,211 [Thread-25:65116] [py.logout:42] [INFO]- 查找账户是否存在
+2016-01-15 18:15:17,210 [Thread-25:65116] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-01-15 18:15:17,236 [Thread-25:65116] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-01-15 18:15:17,588 [Thread-25:65116] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-01-15 18:15:17,625 [Thread-25:65116] [py.logout:83] [INFO]- 清除开户信息 
+2016-01-15 18:15:17,635 [Thread-25:65116] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-01-15 18:15:17,645 [Thread-25:65116] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-01-15 18:15:17,645 [Thread-25:65116] [py.logout:96] [INFO]- 清除成功
+2016-01-15 18:28:28,963 [Thread-26:65228] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-15 18:28:28,963 [Thread-26:65228] [py.logout:19] [INFO]- 手机号为： 13521499301  身份证号为： 130821198603123319
+2016-01-15 18:28:28,963 [Thread-26:65228] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    13521499301     130821198603123319
+2016-01-15 18:28:29,085 [Thread-26:65228] [py.logout:39] [INFO]- 数据库连接完毕
+2016-01-15 18:28:29,085 [Thread-26:65228] [py.logout:42] [INFO]- 查找账户是否存在
+2016-01-15 18:28:31,180 [Thread-26:65228] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-01-15 18:28:31,194 [Thread-26:65228] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-01-15 18:28:31,565 [Thread-26:65228] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-01-15 18:28:31,607 [Thread-26:65228] [py.logout:83] [INFO]- 清除开户信息 
+2016-01-15 18:28:31,618 [Thread-26:65228] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-01-15 18:28:31,628 [Thread-26:65228] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-01-15 18:28:31,628 [Thread-26:65228] [py.logout:96] [INFO]- 清除成功
+2016-01-15 18:41:53,075 [Thread-27:1716] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-15 18:41:53,076 [Thread-27:1716] [py.logout:19] [INFO]- 手机号为： 13521499301  身份证号为： 130821198603123319
+2016-01-15 18:41:53,076 [Thread-27:1716] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    13521499301     130821198603123319
+2016-01-15 18:41:53,203 [Thread-27:1716] [py.logout:39] [INFO]- 数据库连接完毕
+2016-01-15 18:41:53,203 [Thread-27:1716] [py.logout:42] [INFO]- 查找账户是否存在
+2016-01-15 18:41:55,270 [Thread-27:1716] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-01-15 18:41:55,279 [Thread-27:1716] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-01-15 18:41:55,642 [Thread-27:1716] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-01-15 18:41:55,687 [Thread-27:1716] [py.logout:83] [INFO]- 清除开户信息 
+2016-01-15 18:41:55,698 [Thread-27:1716] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-01-15 18:41:55,711 [Thread-27:1716] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-01-15 18:41:55,711 [Thread-27:1716] [py.logout:96] [INFO]- 清除成功
+2016-01-21 11:24:14,170 [Thread-41:81452] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-21 11:24:14,328 [Thread-41:81452] [py.logout:19] [INFO]- 手机号为： 13717759162  身份证号为： 110108198407146318
+2016-01-21 11:24:14,328 [Thread-41:81452] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    13717759162     110108198407146318
+2016-01-21 11:25:44,198 [Dummy-1:97460] [django.db.backends:89] [DEBUG]- (0.002) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2016-01-21 11:25:44,229 [Dummy-1:97460] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2016-01-21 11:25:50,086 [Thread-2:78272] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-21 11:25:50,088 [Thread-2:78272] [py.logout:19] [INFO]- 手机号为： 13717759162  身份证号为： 110108198407146318
+2016-01-21 11:25:50,088 [Thread-2:78272] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    13717759162     110108198407146318
+2016-01-21 11:25:50,973 [Thread-2:78272] [py.logout:39] [INFO]- 数据库连接完毕
+2016-01-21 11:25:50,973 [Thread-2:78272] [py.logout:42] [INFO]- 查找账户是否存在
+2016-01-21 11:26:01,467 [Thread-2:78272] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-01-21 11:26:01,528 [Thread-2:78272] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-01-21 11:26:01,947 [Thread-2:78272] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-01-21 11:26:03,413 [Thread-2:78272] [py.logout:83] [INFO]- 清除开户信息 
+2016-01-21 11:26:03,426 [Thread-2:78272] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-01-21 11:26:03,454 [Thread-2:78272] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-01-21 11:26:03,454 [Thread-2:78272] [py.logout:96] [INFO]- 清除成功
+2016-01-27 15:42:19,171 [Dummy-1:25264] [django.db.backends:89] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2016-01-27 15:42:19,282 [Dummy-1:25264] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2016-01-27 15:42:45,516 [Thread-8:28860] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-27 15:42:45,516 [Thread-8:28860] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-01-27 15:42:45,516 [Thread-8:28860] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-01-27 15:43:19,940 [Thread-9:12624] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-27 15:43:19,940 [Thread-9:12624] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-01-27 15:43:19,940 [Thread-9:12624] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-01-27 15:46:58,089 [Dummy-1:28448] [django.db.backends:89] [DEBUG]- (0.000) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2016-01-27 15:46:58,094 [Dummy-1:28448] [django.db.backends:89] [DEBUG]- (0.001) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2016-01-27 15:47:25,068 [Dummy-1:26928] [django.db.backends:89] [DEBUG]- (0.000) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2016-01-27 15:47:25,071 [Dummy-1:26928] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2016-01-27 15:48:08,733 [Thread-13:14768] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-27 15:48:08,733 [Thread-13:14768] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-01-27 15:48:08,733 [Thread-13:14768] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-01-27 15:48:09,359 [Thread-13:14768] [py.logout:39] [INFO]- 数据库连接完毕
+2016-01-27 15:48:09,382 [Thread-13:14768] [py.logout:42] [INFO]- 查找账户是否存在
+2016-01-27 15:48:21,048 [Thread-13:14768] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-01-27 15:48:21,118 [Thread-13:14768] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-01-27 15:48:21,391 [Thread-13:14768] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-01-27 15:48:22,881 [Thread-13:14768] [py.logout:83] [INFO]- 清除开户信息 
+2016-01-27 15:48:22,903 [Thread-13:14768] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-01-27 15:48:22,937 [Thread-13:14768] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-01-27 15:48:22,937 [Thread-13:14768] [py.logout:96] [INFO]- 清除成功
+2016-01-27 15:49:02,423 [Thread-14:19500] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-27 15:49:02,423 [Thread-14:19500] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-01-27 15:49:02,423 [Thread-14:19500] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-01-27 15:49:02,575 [Thread-14:19500] [py.logout:39] [INFO]- 数据库连接完毕
+2016-01-27 15:49:02,575 [Thread-14:19500] [py.logout:42] [INFO]- 查找账户是否存在
+2016-01-27 15:49:04,592 [Thread-14:19500] [py.logout:54] [INFO]- C_USER_REGIST_INFO没有该条数据
+2016-01-27 16:33:20,674 [Thread-15:27084] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-27 16:33:20,676 [Thread-15:27084] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-01-27 16:33:20,676 [Thread-15:27084] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-01-27 16:33:20,799 [Thread-15:27084] [py.logout:39] [INFO]- 数据库连接完毕
+2016-01-27 16:33:20,799 [Thread-15:27084] [py.logout:42] [INFO]- 查找账户是否存在
+2016-01-27 16:33:22,763 [Thread-15:27084] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-01-27 16:33:22,775 [Thread-15:27084] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-01-27 16:33:23,000 [Thread-15:27084] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-01-27 16:33:23,051 [Thread-15:27084] [py.logout:83] [INFO]- 清除开户信息 
+2016-01-27 16:33:23,062 [Thread-15:27084] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-01-27 16:33:23,072 [Thread-15:27084] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-01-27 16:33:23,072 [Thread-15:27084] [py.logout:96] [INFO]- 清除成功
+2016-01-28 10:57:15,884 [Dummy-1:30792] [django.db.backends:89] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2016-01-28 10:57:15,892 [Dummy-1:30792] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2016-01-28 10:59:56,194 [Dummy-1:36780] [django.db.backends:89] [DEBUG]- (0.000) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2016-01-28 10:59:56,197 [Dummy-1:36780] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2016-01-29 15:41:06,510 [Thread-10:38488] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-29 15:41:06,510 [Thread-10:38488] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-01-29 15:41:06,510 [Thread-10:38488] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-01-29 15:41:08,094 [Thread-10:38488] [py.logout:39] [INFO]- 数据库连接完毕
+2016-01-29 15:41:08,108 [Thread-10:38488] [py.logout:42] [INFO]- 查找账户是否存在
+2016-01-29 15:41:08,579 [Thread-11:34940] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-29 15:41:08,579 [Thread-11:34940] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-01-29 15:41:08,579 [Thread-11:34940] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-01-29 15:41:08,703 [Thread-11:34940] [py.logout:39] [INFO]- 数据库连接完毕
+2016-01-29 15:41:08,703 [Thread-11:34940] [py.logout:42] [INFO]- 查找账户是否存在
+2016-01-29 15:41:11,065 [Thread-10:38488] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-01-29 15:41:11,065 [Thread-11:34940] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-01-29 15:41:11,075 [Thread-10:38488] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-01-29 15:41:11,290 [Thread-10:38488] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-01-29 15:41:11,358 [Thread-10:38488] [py.logout:83] [INFO]- 清除开户信息 
+2016-01-29 15:41:11,369 [Thread-10:38488] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-01-29 15:41:11,381 [Thread-10:38488] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-01-29 15:41:11,381 [Thread-10:38488] [py.logout:96] [INFO]- 清除成功
+2016-01-29 15:41:11,408 [Thread-11:34940] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-01-29 15:41:11,664 [Thread-11:34940] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-01-29 15:41:11,711 [Thread-11:34940] [py.logout:83] [INFO]- 清除开户信息 
+2016-01-29 15:41:11,723 [Thread-11:34940] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-01-29 15:41:11,729 [Thread-11:34940] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-01-29 15:41:11,730 [Thread-11:34940] [py.logout:96] [INFO]- 清除成功
+2016-01-29 17:59:07,990 [Thread-17:37984] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-01-29 17:59:07,992 [Thread-17:37984] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-01-29 17:59:07,992 [Thread-17:37984] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-01-29 17:59:08,115 [Thread-17:37984] [py.logout:39] [INFO]- 数据库连接完毕
+2016-01-29 17:59:08,115 [Thread-17:37984] [py.logout:42] [INFO]- 查找账户是否存在
+2016-01-29 17:59:10,221 [Thread-17:37984] [py.logout:54] [INFO]- C_USER_REGIST_INFO没有该条数据
+2016-02-26 13:59:29,479 [Dummy-1:15972] [django.db.backends:89] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2016-02-26 13:59:29,535 [Dummy-1:15972] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2016-02-26 14:00:38,443 [Thread-9:9676] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-02-26 14:00:38,443 [Thread-9:9676] [py.logout:19] [INFO]- 手机号为： 13521499301  身份证号为： 130821198603123319
+2016-02-26 14:00:38,443 [Thread-9:9676] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    13521499301     130821198603123319
+2016-02-26 14:00:40,411 [Thread-9:9676] [py.logout:39] [INFO]- 数据库连接完毕
+2016-02-26 14:00:40,411 [Thread-9:9676] [py.logout:42] [INFO]- 查找账户是否存在
+2016-02-26 14:00:47,151 [Thread-9:9676] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-02-26 14:00:47,177 [Thread-9:9676] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-02-26 14:00:47,414 [Thread-9:9676] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-02-26 14:00:48,792 [Thread-9:9676] [py.logout:83] [INFO]- 清除开户信息 
+2016-02-26 14:00:48,805 [Thread-9:9676] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-02-26 14:00:48,953 [Thread-9:9676] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-02-26 14:00:48,953 [Thread-9:9676] [py.logout:96] [INFO]- 清除成功
+2016-02-26 15:34:41,459 [Thread-16:20208] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-02-26 15:34:41,460 [Thread-16:20208] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-02-26 15:34:41,460 [Thread-16:20208] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-02-26 15:34:41,579 [Thread-16:20208] [py.logout:39] [INFO]- 数据库连接完毕
+2016-02-26 15:34:41,581 [Thread-16:20208] [py.logout:42] [INFO]- 查找账户是否存在
+2016-02-26 15:34:43,071 [Thread-16:20208] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-02-26 15:34:43,084 [Thread-16:20208] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-02-26 15:34:43,279 [Thread-16:20208] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-02-26 15:34:43,302 [Thread-16:20208] [py.logout:83] [INFO]- 清除开户信息 
+2016-02-26 15:34:43,312 [Thread-16:20208] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-02-26 15:34:43,318 [Thread-16:20208] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-02-26 15:34:43,318 [Thread-16:20208] [py.logout:96] [INFO]- 清除成功
+2016-03-01 16:00:08,773 [Thread-19:23144] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-03-01 16:00:08,811 [Thread-19:23144] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-03-01 16:00:08,811 [Thread-19:23144] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-03-01 16:00:09,497 [Thread-19:23144] [py.logout:39] [INFO]- 数据库连接完毕
+2016-03-01 16:00:09,497 [Thread-19:23144] [py.logout:42] [INFO]- 查找账户是否存在
+2016-03-01 16:00:10,270 [Thread-20:12404] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-03-01 16:00:10,272 [Thread-20:12404] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-03-01 16:00:10,272 [Thread-20:12404] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-03-01 16:00:10,405 [Thread-20:12404] [py.logout:39] [INFO]- 数据库连接完毕
+2016-03-01 16:00:10,405 [Thread-20:12404] [py.logout:42] [INFO]- 查找账户是否存在
+2016-03-01 16:00:17,039 [Thread-20:12404] [py.logout:54] [INFO]- C_USER_REGIST_INFO没有该条数据
+2016-03-01 16:00:17,049 [Thread-19:23144] [py.logout:54] [INFO]- C_USER_REGIST_INFO没有该条数据
+2016-03-01 20:58:32,710 [Thread-25:8308] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-03-01 20:58:32,710 [Thread-25:8308] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-03-01 20:58:32,710 [Thread-25:8308] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-03-01 20:58:32,819 [Thread-25:8308] [py.logout:39] [INFO]- 数据库连接完毕
+2016-03-01 20:58:32,819 [Thread-25:8308] [py.logout:42] [INFO]- 查找账户是否存在
+2016-03-01 20:58:34,450 [Thread-25:8308] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-03-01 20:58:34,463 [Thread-25:8308] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-03-01 20:58:34,697 [Thread-25:8308] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-03-01 20:58:34,734 [Thread-25:8308] [py.logout:83] [INFO]- 清除开户信息 
+2016-03-01 20:58:34,749 [Thread-25:8308] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-03-01 20:58:34,788 [Thread-25:8308] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-03-01 20:58:34,788 [Thread-25:8308] [py.logout:96] [INFO]- 清除成功
+2016-03-01 21:01:52,898 [Thread-26:3208] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-03-01 21:01:52,900 [Thread-26:3208] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-03-01 21:01:52,900 [Thread-26:3208] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-03-01 21:01:53,022 [Thread-26:3208] [py.logout:39] [INFO]- 数据库连接完毕
+2016-03-01 21:01:53,022 [Thread-26:3208] [py.logout:42] [INFO]- 查找账户是否存在
+2016-03-01 21:01:54,615 [Thread-26:3208] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-03-01 21:01:54,618 [Thread-26:3208] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-03-01 21:01:54,851 [Thread-26:3208] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-03-01 21:01:54,875 [Thread-26:3208] [py.logout:83] [INFO]- 清除开户信息 
+2016-03-01 21:01:54,888 [Thread-26:3208] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-03-01 21:01:54,891 [Thread-26:3208] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-03-01 21:01:54,891 [Thread-26:3208] [py.logout:96] [INFO]- 清除成功
+2016-03-04 10:51:19,012 [Dummy-1:25480] [django.db.backends:89] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2016-03-04 10:51:19,092 [Dummy-1:25480] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2016-03-04 10:56:02,168 [Thread-9:22732] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-03-04 10:56:02,170 [Thread-9:22732] [py.logout:19] [INFO]- 手机号为： 13717759162  身份证号为： 110108198407146318
+2016-03-04 10:56:02,170 [Thread-9:22732] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    13717759162     110108198407146318
+2016-03-04 10:56:03,688 [Thread-9:22732] [py.logout:39] [INFO]- 数据库连接完毕
+2016-03-04 10:56:03,688 [Thread-9:22732] [py.logout:42] [INFO]- 查找账户是否存在
+2016-03-04 10:56:08,250 [Thread-9:22732] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-03-04 10:56:08,266 [Thread-9:22732] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-03-04 10:56:08,516 [Thread-9:22732] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-03-04 10:56:08,558 [Thread-9:22732] [py.logout:83] [INFO]- 清除开户信息 
+2016-03-04 10:56:08,569 [Thread-9:22732] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-03-04 10:56:08,581 [Thread-9:22732] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-03-04 10:56:08,582 [Thread-9:22732] [py.logout:96] [INFO]- 清除成功
+2016-03-04 11:58:15,437 [Thread-18:24752] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-03-04 11:58:15,437 [Thread-18:24752] [py.logout:19] [INFO]- 手机号为： 18611211987  身份证号为： 110101198912294018
+2016-03-04 11:58:15,437 [Thread-18:24752] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18611211987     110101198912294018
+2016-03-04 11:58:15,561 [Thread-18:24752] [py.logout:39] [INFO]- 数据库连接完毕
+2016-03-04 11:58:15,561 [Thread-18:24752] [py.logout:42] [INFO]- 查找账户是否存在
+2016-03-04 11:58:19,246 [Thread-18:24752] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-03-04 11:58:19,260 [Thread-18:24752] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-03-04 11:58:19,490 [Thread-18:24752] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-03-04 11:58:19,519 [Thread-18:24752] [py.logout:83] [INFO]- 清除开户信息 
+2016-03-04 11:58:19,533 [Thread-18:24752] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-03-04 11:58:19,542 [Thread-18:24752] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-03-04 11:58:19,542 [Thread-18:24752] [py.logout:96] [INFO]- 清除成功
+2016-03-04 16:45:30,203 [Thread-19:25904] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-03-04 16:45:30,203 [Thread-19:25904] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-03-04 16:45:30,203 [Thread-19:25904] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-03-04 16:45:30,367 [Thread-19:25904] [py.logout:39] [INFO]- 数据库连接完毕
+2016-03-04 16:45:30,367 [Thread-19:25904] [py.logout:42] [INFO]- 查找账户是否存在
+2016-03-04 16:45:32,371 [Thread-19:25904] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-03-04 16:45:32,381 [Thread-19:25904] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-03-04 16:45:32,605 [Thread-19:25904] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-03-04 16:45:32,687 [Thread-19:25904] [py.logout:83] [INFO]- 清除开户信息 
+2016-03-04 16:45:32,701 [Thread-19:25904] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-03-04 16:45:32,706 [Thread-19:25904] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-03-04 16:45:32,706 [Thread-19:25904] [py.logout:96] [INFO]- 清除成功
+2016-03-04 16:57:18,693 [Thread-20:23600] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-03-04 16:57:18,693 [Thread-20:23600] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-03-04 16:57:18,693 [Thread-20:23600] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-03-04 16:57:18,819 [Thread-20:23600] [py.logout:39] [INFO]- 数据库连接完毕
+2016-03-04 16:57:18,819 [Thread-20:23600] [py.logout:42] [INFO]- 查找账户是否存在
+2016-03-04 16:57:20,328 [Thread-20:23600] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-03-04 16:57:20,335 [Thread-20:23600] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-03-04 16:57:20,558 [Thread-20:23600] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-03-04 16:57:20,582 [Thread-20:23600] [py.logout:83] [INFO]- 清除开户信息 
+2016-03-04 16:57:20,595 [Thread-20:23600] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-03-04 16:57:20,602 [Thread-20:23600] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-03-04 16:57:20,602 [Thread-20:23600] [py.logout:96] [INFO]- 清除成功
+2016-03-04 17:03:02,730 [Thread-21:27120] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-03-04 17:03:02,730 [Thread-21:27120] [py.logout:19] [INFO]- 手机号为： 18210063255  身份证号为： 220581198303230368
+2016-03-04 17:03:02,730 [Thread-21:27120] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18210063255     220581198303230368
+2016-03-04 17:03:02,852 [Thread-21:27120] [py.logout:39] [INFO]- 数据库连接完毕
+2016-03-04 17:03:02,852 [Thread-21:27120] [py.logout:42] [INFO]- 查找账户是否存在
+2016-03-04 17:03:04,325 [Thread-21:27120] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-03-04 17:03:04,328 [Thread-21:27120] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-03-04 17:03:04,549 [Thread-21:27120] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-03-04 17:03:04,575 [Thread-21:27120] [py.logout:83] [INFO]- 清除开户信息 
+2016-03-04 17:03:04,588 [Thread-21:27120] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-03-04 17:03:04,592 [Thread-21:27120] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-03-04 17:03:04,592 [Thread-21:27120] [py.logout:96] [INFO]- 清除成功
+2016-03-22 16:48:44,947 [Dummy-1:14940] [django.db.backends:89] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2016-03-22 16:48:45,049 [Dummy-1:14940] [django.db.backends:89] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2016-03-22 16:50:30,418 [Thread-9:13780] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-03-22 16:50:30,418 [Thread-9:13780] [py.logout:19] [INFO]- 手机号为： 13521499301  身份证号为： 130821198603123319
+2016-03-22 16:50:30,420 [Thread-9:13780] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    13521499301     130821198603123319
+2016-03-22 16:50:33,493 [Thread-9:13780] [py.logout:39] [INFO]- 数据库连接完毕
+2016-03-22 16:50:33,493 [Thread-9:13780] [py.logout:42] [INFO]- 查找账户是否存在
+2016-03-22 16:50:40,203 [Thread-9:13780] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-03-22 16:50:40,428 [Thread-9:13780] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-03-22 16:50:40,782 [Thread-9:13780] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-03-22 16:50:42,132 [Thread-9:13780] [py.logout:83] [INFO]- 清除开户信息 
+2016-03-22 16:50:42,224 [Thread-9:13780] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-03-22 16:50:42,348 [Thread-9:13780] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-03-22 16:50:42,348 [Thread-9:13780] [py.logout:96] [INFO]- 清除成功
+2016-03-23 10:12:05,319 [Thread-10:13860] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-03-23 10:12:05,321 [Thread-10:13860] [py.logout:19] [INFO]- 手机号为： 13521499301  身份证号为： 130821198603123319
+2016-03-23 10:12:05,321 [Thread-10:13860] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    13521499301     130821198603123319
+2016-03-23 10:12:06,463 [Thread-10:13860] [py.logout:39] [INFO]- 数据库连接完毕
+2016-03-23 10:12:06,463 [Thread-10:13860] [py.logout:42] [INFO]- 查找账户是否存在
+2016-03-23 10:12:08,611 [Thread-10:13860] [py.logout:57] [INFO]- 查找手机号与身份证是否匹配
+2016-03-23 10:12:08,733 [Thread-10:13860] [py.logout:76] [INFO]- 清除宜人贷数据库
+2016-03-23 10:12:09,092 [Thread-10:13860] [py.logout:80] [INFO]- 清除借款、出借人身份证信息 
+2016-03-23 10:12:09,203 [Thread-10:13860] [py.logout:83] [INFO]- 清除开户信息 
+2016-03-23 10:12:09,342 [Thread-10:13860] [py.logout:92] [INFO]- 清除宜定赢中的用户信息
+2016-03-23 10:12:09,421 [Thread-10:13860] [py.logout:94] [INFO]- oracle版本为11.2.0.4.0
+2016-03-23 10:12:09,421 [Thread-10:13860] [py.logout:96] [INFO]- 清除成功
+2016-03-23 18:35:19,595 [Thread-13:14056] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-03-23 18:35:19,595 [Thread-13:14056] [py.logout:19] [INFO]- 手机号为： 18200000099  身份证号为： 652301198602151511
+2016-03-23 18:35:19,595 [Thread-13:14056] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18200000099     652301198602151511
+2016-03-23 18:35:21,048 [Thread-13:14056] [py.logout:39] [INFO]- 数据库连接完毕
+2016-03-23 18:35:21,048 [Thread-13:14056] [py.logout:42] [INFO]- 查找账户是否存在
+2016-03-23 18:35:22,841 [Thread-13:14056] [py.logout:54] [INFO]- C_USER_REGIST_INFO没有该条数据
+2016-03-23 18:35:34,483 [Thread-14:20324] [py.logout:8] [INFO]- 开始匹配手机号和身份证号
+2016-03-23 18:35:34,483 [Thread-14:20324] [py.logout:19] [INFO]- 手机号为： 18200000099  身份证号为： 652301198602151511
+2016-03-23 18:35:34,483 [Thread-14:20324] [py.logout:20] [INFO]- 手机号身份证号符合规则，清除开始    18200000099     652301198602151511
+2016-03-23 18:35:35,497 [Thread-14:20324] [py.logout:39] [INFO]- 数据库连接完毕
+2016-03-23 18:35:35,497 [Thread-14:20324] [py.logout:42] [INFO]- 查找账户是否存在
+2016-03-23 18:35:37,125 [Thread-14:20324] [py.logout:54] [INFO]- C_USER_REGIST_INFO没有该条数据
+2016-03-29 15:39:35,374 [Dummy-1:6668] [django.db.backends:89] [DEBUG]- (0.002) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2016-03-29 15:39:35,506 [Dummy-1:6668] [django.db.backends:89] [DEBUG]- (0.001) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
